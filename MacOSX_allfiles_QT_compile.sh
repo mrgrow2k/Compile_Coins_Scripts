@@ -8,7 +8,7 @@ cd SDKs
 sudo wget -c https://github.com/phracker/MacOSX-SDKs/releases/download/MacOSX10.11.sdk/MacOSX10.11.sdk.tar.xz
 sudo tar -xf MacOSX10.11.sdk.tar.xz
 cd ..
-sudo make -j4 HOST=x86_64-apple-darwin14
+sudo make -j4 HOST=x86_64-apple-darwin11
 cd ..
 sudo ./autogen.sh
 sudo mkdir db4
