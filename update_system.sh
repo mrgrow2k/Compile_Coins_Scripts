@@ -1,7 +1,8 @@
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt install -y git-all build-essential libevent-dev libtool autotools-dev automake pkg-config \
-  bsdmainutils curl git libboost-all-dev libssl-dev libboost-tools-dev libdb++-dev \
+sudo apt install git -y
+sudo apt install -y build-essential libevent-dev libtool autotools-dev automake pkg-config \
+  bsdmainutils curl libboost-all-dev libssl-dev libboost-tools-dev libdb++-dev \
   libevent-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools \
   libprotobuf-dev protobuf-compiler libevent-dev libboost-all-dev libdb++-dev libssl-dev \
   libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev \
@@ -28,8 +29,6 @@ sudo apt -y autoremove
 sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get purge runit -y
-sudo apt-get purge git-all -y
-sudo apt-get purge git -y
 sudo apt-get autoremove -y
 sudo apt update
 sudo apt install git -y
