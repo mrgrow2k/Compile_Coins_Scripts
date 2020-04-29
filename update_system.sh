@@ -9,6 +9,9 @@ sudo apt install -y git-all build-essential libevent-dev libtool autotools-dev a
 sudo apt install -y g++-mingw-w64-x86-64
 sudo apt install -y software-properties-common
 sudo apt install -y g++-mingw-w64-i686 mingw-w64-i686-dev
+sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
+sudo apt-get install libminiupnpc-dev -y
+sudo apt-get install libzmq3-dev -y
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install -y curl librsvg2-bin libtiff-tools bsdmainutils cmake imagemagick libcap-dev \
@@ -24,3 +27,9 @@ sudo apt-get install -y g++-7-aarch64-linux-gnu gcc-7-aarch64-linux-gnu
 sudo apt -y autoremove
 sudo apt-get update
 sudo apt-get -y upgrade
+sudo apt-get purge runit -y
+sudo apt-get purge git-all -y
+sudo apt-get purge git -y
+sudo apt-get autoremove -y
+sudo apt update
+sudo apt install git -y
