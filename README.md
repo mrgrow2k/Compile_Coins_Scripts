@@ -20,7 +20,7 @@ sudo su root
 The big list of Repos, there are more but start with these.
 
 ```
-sudo wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/update_system.sh
+sudo wget https://raw.githubusercontent.com/mrgrow2k/Compile_Coins_Scripts/master/update_system.sh
 sudo chmod +x update_system.sh
 sudo ./update_system.sh
 ```
@@ -33,14 +33,14 @@ sudo apt-get install curl g++-aarch64-linux-gnu g++-4.8-aarch64-linux-gnu gcc-4.
 ```
 ### Master Compile Script - works, in testing
 ```
-sudo wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/master_build_script.sh
+sudo wget https://raw.githubusercontent.com/mrgrow2k/Compile_Coins_Scripts/master/master_build_script.sh
 sudo chmod +x master_build_script.sh
 sudo ./master_build_script.sh
 ```
 
 ### Linux 64 bit (Daemon, TX, CLI, and QT)
 ```
-wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/linux64_compile.sh
+wget https://raw.githubusercontent.com/mrgrow2k/Compile_Coins_Scripts/master/linux64_compile.sh
 chmod +x linux64_compile.sh
 ./linux64_compile.sh
 ```
@@ -48,7 +48,7 @@ chmod +x linux64_compile.sh
 
 ### Windows 64 bit (Daemon, TX, CLI, and QT)
 ```
-wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/win64QT_compile.sh
+wget https://raw.githubusercontent.com/mrgrow2k/Compile_Coins_Scripts/master/win64QT_compile.sh
 chmod +x win64QT_compile.sh
 ./win64QT_compile.sh
 ```
@@ -56,7 +56,7 @@ chmod +x win64QT_compile.sh
 
 ### Windows 32 bit (Daemon, TX, CLI, and QT)
 ```
-wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/win32QT_compile.sh
+wget https://raw.githubusercontent.com/mrgrow2k/Compile_Coins_Scripts/master/win32QT_compile.sh
 chmod +x win32QT_compile.sh
 ./win32QT_compile.sh
 ```
@@ -66,7 +66,7 @@ chmod +x win32QT_compile.sh
 No strip needed after compile. This method makes the QT, daemon, cli, and tx files. Send to Mac then do chmod +x filename then run the file.
 
 ```
-wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/MacOSX_allfiles_QT_compile.sh
+wget https://raw.githubusercontent.com/mrgrow2k/Compile_Coins_Scripts/master/MacOSX_allfiles_QT_compile.sh
 chmod +x MacOSX_allfiles_QT_compile.sh
 ./MacOSX_allfiles_QT_compile.sh
 ```
@@ -75,7 +75,7 @@ chmod +x MacOSX_allfiles_QT_compile.sh
 ### ARM-32 / AARCH-32 Bit Wallet (Raspberry Pi) (Daemon, TX, CLI, and QT)
 Don't forget the dependcies!
 ```
-wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/ARM32_compile.sh
+wget https://raw.githubusercontent.com/mrgrow2k/Compile_Coins_Scripts/master/ARM32_compile.sh
 chmod +x ARM32_compile.sh
 ./ARM32_compile.sh
 ```
@@ -83,7 +83,7 @@ chmod +x ARM32_compile.sh
 ### ARM-64 / AARCH-64 Bit Wallet (Raspberry Pi) - Doesn't always work, use 32 bit
 Don't forget the dependcies!
 ```
-wget https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/ARM64_compile.sh
+wget https://raw.githubusercontent.com/mrgrow2k/Compile_Coins_Scripts/master/ARM64_compile.sh
 chmod +x ARM64_compile.sh
 ./ARM64_compile.sh
 ```
