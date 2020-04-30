@@ -31,4 +31,3 @@ sudo apt-get -y upgrade
 sudo apt-get purge runit -y
 sudo apt-get autoremove -y
 sudo apt update
-sudo apt install git -y
