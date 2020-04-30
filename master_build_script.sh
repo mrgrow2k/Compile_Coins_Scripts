@@ -73,7 +73,7 @@ if [[ ! $next_choice =~ ^[Yy]$ ]]; then
   clear
   echo "${RED}$FANCY_NAME${NC} Script starting, please wait..."
   clear
-  sudo wget "https://raw.githubusercontent.com/nashsclay/Compile_Coins_Scripts/master/$SCRIPT_NAME.sh"
+  sudo wget "https://raw.githubusercontent.com/mrgrow2k/Compile_Coins_Scripts/master/$SCRIPT_NAME.sh"
   chmod +x $SCRIPT_NAME.sh
   sudo ./$SCRIPT_NAME.sh
 fi
